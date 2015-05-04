@@ -1,15 +1,22 @@
 #board {
-  width: 31em;
-  height: 30em;
+  width: 496px;
+  height: 480px;
   position: relative;
   top: 30px;
   left: 25%;
 }
 
 .box {
-  width: 10em;
-  height: 10em;
+  width: 129px;
+  height: 129px;
   border: 1px solid black;
   display: inline-block;
   margin-bottom: 4px;
-}
+  text-align: center;
+  font-size: 100px;
+  cursor: pointer;
+  }
+
+  #resetButton {
+    text-align: center;
+  }
